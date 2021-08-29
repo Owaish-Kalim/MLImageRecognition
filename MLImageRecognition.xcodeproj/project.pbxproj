@@ -13,6 +13,7 @@
 		E7EB356B26DBDDE700671F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EB356926DBDDE700671F6C /* Main.storyboard */; };
 		E7EB356D26DBDDE800671F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EB356C26DBDDE800671F6C /* Assets.xcassets */; };
 		E7EB357026DBDDE800671F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EB356E26DBDDE800671F6C /* LaunchScreen.storyboard */; };
+		E7EB357826DBE58C00671F6C /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E7EB357726DBE58C00671F6C /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E7EB356C26DBDDE800671F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7EB356F26DBDDE800671F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7EB357126DBDDE800671F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EB357726DBE58C00671F6C /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E7EB356926DBDDE700671F6C /* Main.storyboard */,
 				E7EB356C26DBDDE800671F6C /* Assets.xcassets */,
 				E7EB356E26DBDDE800671F6C /* LaunchScreen.storyboard */,
+				E7EB357726DBE58C00671F6C /* MobileNetV2.mlmodel */,
 				E7EB357126DBDDE800671F6C /* Info.plist */,
 			);
 			path = MLImageRecognition;
@@ -139,6 +142,7 @@
 			files = (
 				E7EB356826DBDDE700671F6C /* ViewController.swift in Sources */,
 				E7EB356426DBDDE700671F6C /* AppDelegate.swift in Sources */,
+				E7EB357826DBE58C00671F6C /* MobileNetV2.mlmodel in Sources */,
 				E7EB356626DBDDE700671F6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
